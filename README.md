@@ -18,7 +18,7 @@ This package contains everything needed to deploy the portfolio to GitHub Pages.
 3. Drag in `index.html` and `.nojekyll` (overwrite existing `index.html` if prompted)
 4. Commit directly to `main` (or your Pages branch)
 5. Go to **Settings → Pages**, confirm the source is `main` branch, `/ (root)`
-6. Wait ~1 minute, then visit your Pages URL (e.g. `https://uxmeenu-code.github.io/Heartbeat/`)
+6. Wait ~1 minute, then visit your Pages URL 
 
 ### Option B — Git command line
 ```bash
