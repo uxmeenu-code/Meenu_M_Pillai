@@ -13,7 +13,7 @@ This package contains everything needed to deploy the portfolio to GitHub Pages.
 ## Deploy to your existing repo (uxmeenu-code/Heartbeat)
 
 ### Option A — GitHub web UI (simplest)
-1. Go to https://github.com/uxmeenu-code/Heartbeat
+1. Go to https://github.com/Meenu_M_Pillai
 2. Click **Add file → Upload files**
 3. Drag in `index.html` and `.nojekyll` (overwrite existing `index.html` if prompted)
 4. Commit directly to `main` (or your Pages branch)
