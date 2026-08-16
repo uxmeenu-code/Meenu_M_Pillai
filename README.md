@@ -10,7 +10,7 @@ This package contains everything needed to deploy the portfolio to GitHub Pages.
   static single-file site; prevents GitHub from mangling any files/folders that
   start with `_`).
 
-## Deploy to your existing repo (uxmeenu-code/Heartbeat)
+## Deploy to your existing repo
 
 ### Option A — GitHub web UI (simplest)
 1. Go to https://github.com/Meenu_M_Pillai
