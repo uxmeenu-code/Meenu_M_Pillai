@@ -4566,6 +4566,13 @@ window.setHeroBgImg = function(input) {
 </script>
 
 <style id="focused-layout-late">
+/* Cover image: frame hugs the image, no empty bands at the sides */
+.ipc-hero-img-wrap > div { width: fit-content !important; max-width: 880px; background: transparent !important; margin: 0 auto !important; }
+.ipc-hero-img-wrap img { width: auto !important; max-width: 100%; max-height: 520px; margin: 0 auto; border-radius: 8px; }
+/* No divider line directly above a coloured block; no extra gap after a section's last element */
+.ipc-section:has(+ .ipc-section--dark), .ipc-section:has(+ .ipc-section--warm) { border-bottom: none !important; }
+.ipc-section > :last-child { margin-bottom: 0 !important; }
+
 /* Lead paragraphs use the full text column, like everything else */
 .ipc-body .ipc-lead { max-width: none !important; }
 
