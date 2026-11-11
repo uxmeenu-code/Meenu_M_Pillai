@@ -4566,6 +4566,10 @@ window.setHeroBgImg = function(input) {
 </script>
 
 <style id="focused-layout-late">
+/* Cover image aligned to the text column edges, whole image, no crop */
+.ipc-hero-img-wrap > div, .ipc-hero-img-wrap > img { width: min(var(--read-max, 760px), 100%) !important; max-width: min(var(--read-max, 760px), 100%) !important; }
+.ipc-hero-img-wrap img { width: 100% !important; max-height: none !important; height: auto !important; }
+
 /* Cover image: frame hugs the image, no empty bands at the sides */
 .ipc-hero-img-wrap > div { width: fit-content !important; max-width: 880px; background: transparent !important; margin: 0 auto !important; }
 .ipc-hero-img-wrap img { width: auto !important; max-width: 100%; max-height: 520px; margin: 0 auto; border-radius: 8px; }
