@@ -4566,6 +4566,12 @@ window.setHeroBgImg = function(input) {
 </script>
 
 <style id="focused-layout-late">
+/* Project-page cover image: in proportion with the content column */
+.ipc-hero-img-wrap { padding: 40px 60px 8px !important; }
+.ipc-hero-img-wrap > * { max-width: 880px; margin-left: auto !important; margin-right: auto !important; }
+.ipc-hero-img-wrap img { max-height: 520px; width: 100%; object-fit: contain; }
+@media (max-width: 900px) { .ipc-hero-img-wrap { padding: 24px 24px 4px !important; } }
+
 /* Consistent section rhythm across case studies */
 .ipc-section { padding: 52px 0 !important; }
 .ipc-section--dark, .ipc-section--warm { margin: 0 -60px !important; padding: 52px 60px !important; }
